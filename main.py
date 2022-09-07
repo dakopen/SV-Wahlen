@@ -97,7 +97,7 @@ def undo(df):
                 continue
 
 counter = 0
-df = pd.read_csv("speicher/speicher.csv", encoding="utf-8-sig")
+df = pd.read_csv("speicher/students.csv", encoding="utf-8-sig")
 
 while True:
     student = receive_input()
